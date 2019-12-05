@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,11 +48,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	width: 80%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,12 +64,55 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-nav {
+body {
+	margin: 2%;
+}
+
+.container {
+
+}
+
+nav a{
 	color:grey;
+	display: inline-block;
+	padding: 4%;
+	justify-content: space-between;
+}
+
+.logo {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.intro {
+	display: inline-block;
+	margin-bottom: 70px;
+	vertical-align: middle;
+	border: 10px solid red;
+	font-size: 500%;
+}
+
+h1 {
+	margin-bottom: 70px;
+}
+
+header div{
+	border-bottom: 1px solid black;
+	column-count: 2;
+	display: inline-block;
+	width: 50%;
 }
 
 .logo {
 	display: inline-block;
+}
+
+p {
+	background-color: #DDE0E3;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 footer {
