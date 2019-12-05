@@ -68,10 +68,6 @@ body {
 	margin: 2%;
 }
 
-.container {
-
-}
-
 nav a{
 	color:grey;
 	display: inline-block;
@@ -83,11 +79,39 @@ nav a{
 	vertical-align: middle;
 }
 
-.intro {
-	margin-bottom: 70px;
+.container #divImg {
+	margin-top: 40%;
+	margin-left: 99%;
 	vertical-align: middle;
-	border: 10px solid red;
-	font-size: 500%;
+	position: relative;
+}
+
+.container #innovation {
+	vertical-align: middle;
+	font-size: 90px;
+	display: inline-block;
+	width: 50%;
+	margin-left: 45%;
+	margin-top: 20%;
+	text-align: center;
+	line-height: 1;
+	letter-spacing: 0.1em;
+}
+
+.container .getStarted a {
+	font-size: 18px;
+	width: 185px;
+	text-align: center;
+	padding: 5px 30px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	position: relative;
+	display: inline-block;
+	margin-left: 20px;
+	position: absolute;
+	left: 150px; 
+	bottom: 300px;
 }
 
 h1 {
@@ -95,7 +119,6 @@ h1 {
 }
 
 header {
-	border-bottom: 1px solid black;
 	column-count: 2;
 	display: block;
 	width: 50%;
@@ -112,6 +135,39 @@ p {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+#features h2 {
+	text-align: left;
+	padding: 3% 0;
+}
+
+/*#features {
+	width: 150px;
+	height: 150px;
+	padding: 3%;
+}*/ 
+
+#features {
+	float: left;
+	width: 300px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+}
+
+.about {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+
+/*
+old code
+.top-section {
+	display: inline-block;
+	border: 2px solid red;
+}*/
 
 footer {
 	text-align: center;
