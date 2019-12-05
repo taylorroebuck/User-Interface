@@ -128,47 +128,60 @@ header {
 	display: inline-block;
 }
 
-p {
-	background-color: #DDE0E3;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
+.topSection {
+	width: 100%;
 }
 
-#features h2 {
-	text-align: left;
-	padding: 3% 0;
-}
-
-/*#features {
-	width: 150px;
-	height: 150px;
-	padding: 3%;
-}*/ 
-
-#features {
-	float: left;
-	width: 300px;
-	border: 3px solid #73AD21;
-	padding: 10px;
+.topSection div {
+	text-align: justify;
+	display: inline-block;
+	width: 47%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	font-size: 17.5px;
 }
 
 .about {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
+	vertical-align: top;
 }
 
+.topSection h2 {
+	text-align: left;
+}
 
-/*
-old code
-.top-section {
+.about {
+	margin-left: 1.5%;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-section {
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+.bottom-section div {
+	text-align: justify;
 	display: inline-block;
-	border: 2px solid red;
-}*/
+	width: 31%;
+	padding: 2% auto;
+	margin-right: 2%;
+	margin-top: 4%;
+	margin-bottom: 5%;
+	font-size: 17.5px;
+}
+
+.contact {
+	width: 100%;
+	margin-top: 3%;
+}
 
 footer {
+	padding: 2% auto;
 	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 10%;
 }
