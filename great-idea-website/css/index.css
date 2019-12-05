@@ -75,6 +75,26 @@ nav a{
 	justify-content: space-between;
 }
 
+nav a:hover {
+	animation-name: woahdude;
+	animation-duration: 2s;
+}
+
+@keyframes woahdude {
+	0%{
+		background-color: dodgerblue;
+	} 
+	50%{
+		background-color: teal;
+	}
+	75%{
+		background-color: yellowgreen;
+	}
+	100%{
+		background-color: yellow;
+	}
+}
+
 .logo {
 	vertical-align: middle;
 }
@@ -184,4 +204,5 @@ footer {
 	text-align: center;
 	margin-top: 5%;
 	margin-bottom: 10%;
+	font-family: 'Abril Fatface', cursive;
 }
