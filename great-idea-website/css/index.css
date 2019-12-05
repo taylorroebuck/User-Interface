@@ -81,11 +81,9 @@ nav a{
 
 .logo {
 	vertical-align: middle;
-	display: inline-block;
 }
 
 .intro {
-	display: inline-block;
 	margin-bottom: 70px;
 	vertical-align: middle;
 	border: 10px solid red;
@@ -96,10 +94,10 @@ h1 {
 	margin-bottom: 70px;
 }
 
-header div{
+header {
 	border-bottom: 1px solid black;
 	column-count: 2;
-	display: inline-block;
+	display: block;
 	width: 50%;
 }
 
